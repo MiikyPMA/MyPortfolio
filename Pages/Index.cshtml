@@ -1,10 +1,955 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Mihaela Andreea Calin | C# .NET Developer";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!-- =========================================================
+     NAVIGATION
+     ========================================================= -->
+
+<header class="site-navbar">
+    <div class="container nav-inner">
+
+        <a href="#home" class="brand">
+            <span class="brand-mark">M</span>
+
+            <span class="brand-copy">
+                <strong>Mihaela Andreea Calin</strong>
+                <small>C# · .NET Developer</small>
+            </span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#projects" class="nav-link">Projects</a>
+        </nav>
+
+        <a href="#contact" class="nav-cta">
+            Let's talk
+            <span>↗</span>
+        </a>
+
+    </div>
+</header>
+
+
+<main>
+
+    <!-- =========================================================
+         HERO
+         ========================================================= -->
+
+    <section id="home" class="hero-section">
+
+        <div class="container hero-container">
+
+            <!-- LEFT : INTRO -->
+            <div class="hero-content">
+
+                <div class="eyebrow">
+                    <span class="eyebrow-line"></span>
+                    <span>Software Developer</span>
+                </div>
+
+                <h1>
+                    Building software
+                    <span>with precision.</span>
+                </h1>
+
+                <div class="hero-description">
+
+                    <p class="hero-lead">
+                        I'm <strong>Mihaela Andreea Calin</strong>, a C# developer
+                        with over five years of professional experience building
+                        Windows applications.
+                    </p>
+
+                    <p class="hero-text">
+                        I'm currently expanding my expertise into modern .NET,
+                        ASP.NET Core and web development, with a focus on creating
+                        reliable, maintainable and thoughtfully designed software.
+                    </p>
+
+                </div>
+
+                <div class="hero-actions">
+
+                    <a href="#projects" class="btn-primary">
+                        <span>View my work</span>
+                        <span class="btn-arrow">↗</span>
+                    </a>
+
+                    <a href="#about" class="btn-text">
+                        More about me
+                        <span>↓</span>
+                    </a>
+
+                </div>
+
+                <!-- HERO FACTS -->
+
+                <div class="hero-facts">
+
+                    <div class="hero-fact">
+                        <strong>5+</strong>
+                        <span>Years C#</span>
+                    </div>
+
+                    <div class="hero-fact">
+                        <strong>.NET</strong>
+                        <span>Technology</span>
+                    </div>
+
+                    <div class="hero-fact">
+                        <strong>01</strong>
+                        <span>Developer</span>
+                    </div>
+
+                </div>
+
+                <div class="hero-location">
+                    <span class="location-dot"></span>
+                    Based in Romania
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT : PORTRAIT -->
+            <div class="hero-portrait">
+
+                <img
+                    src="~/images/profile.png"
+                    alt="Mihaela Andreea Calin - C# .NET Developer"
+                    class="profile-image" />
+
+            </div>
+
+        </div>
+
+        <div class="hero-scroll">
+            <span>Scroll to explore</span>
+            <span class="scroll-line"></span>
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         INTRO
+         ========================================================= -->
+
+    <section class="intro-section">
+
+        <div class="container">
+
+            <div class="section-label">
+                <span>01</span>
+                Introduction
+            </div>
+
+            <div class="intro-content">
+
+                <h2>
+                    Experienced in
+                    <em>C#.</em>
+                    Growing into
+                    <em>modern .NET.</em>
+                </h2>
+
+                <div class="intro-columns">
+
+                    <p>
+                        My professional journey has been built around C# and
+                        Windows application development, where I've learned to
+                        work with real-world software, existing codebases,
+                        debugging and continuous improvement.
+                    </p>
+
+                    <p>
+                        Today, I'm extending that foundation into ASP.NET Core,
+                        web development and modern .NET technologies, building
+                        projects that combine clean code with a polished user
+                        experience.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         ABOUT
+         ========================================================= -->
+
+    <section id="about" class="about-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div class="section-label">
+                    <span>02</span>
+                    About me
+                </div>
+
+                <h2>
+                    A developer who cares about
+                    <em>how software works.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="about-layout">
+
+                <div class="about-number">
+                    05
+                    <span>
+                        years of professional
+                        C# experience
+                    </span>
+                </div>
+
+                <div class="about-copy">
+
+                    <p class="about-large">
+                        I believe good software is not only about making
+                        something work. It is about creating something that
+                        can be understood, maintained and improved.
+                    </p>
+
+                    <p>
+                        My professional experience has given me a strong
+                        foundation in C#, object-oriented programming,
+                        debugging and working with Windows applications.
+                    </p>
+
+                    <p>
+                        I'm now building on that experience by learning and
+                        applying ASP.NET Core, modern .NET development,
+                        APIs, databases and web technologies.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         SKILLS
+         ========================================================= -->
+
+    <section id="skills" class="skills-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div class="section-label">
+                    <span>03</span>
+                    Skills
+                </div>
+
+                <h2>
+                    Technologies I use
+                    <em>and explore.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <article class="skill-card">
+
+                    <span class="skill-number">01</span>
+
+                    <h3>C# & .NET</h3>
+
+                    <p>
+                        A strong professional foundation in C# and
+                        object-oriented software development.
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>C#</span>
+                        <span>.NET</span>
+                        <span>OOP</span>
+                        <span>LINQ</span>
+                        <span>Async / Await</span>
+                    </div>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <span class="skill-number">02</span>
+
+                    <h3>Web Development</h3>
+
+                    <p>
+                        Expanding from desktop development into modern
+                        ASP.NET Core and web technologies.
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>ASP.NET Core</span>
+                        <span>Razor Pages</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <span class="skill-number">03</span>
+
+                    <h3>Development Tools</h3>
+
+                    <p>
+                        Comfortable working with professional development
+                        tools and source control workflows.
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>Visual Studio</span>
+                        <span>VS Code</span>
+                        <span>Git</span>
+                        <span>GitHub</span>
+                    </div>
+
+                </article>
+
+
+                <article class="skill-card">
+
+                    <span class="skill-number">04</span>
+
+                    <h3>Currently Learning</h3>
+
+                    <p>
+                        Building practical projects to deepen my modern
+                        .NET and backend development skills.
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>Web API</span>
+                        <span>EF Core</span>
+                        <span>SQL</span>
+                        <span>REST</span>
+                        <span>Testing</span>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         EXPERIENCE
+         ========================================================= -->
+
+    <section id="experience" class="experience-section">
+
+        <div class="container experience-container">
+
+            <div class="experience-intro">
+
+                <div class="section-label light-label">
+                    <span>04</span>
+                    Experience
+                </div>
+
+                <h2>
+                    Five years of
+                    <em>real-world</em>
+                    development.
+                </h2>
+
+            </div>
+
+
+            <div class="experience-list">
+
+                <article class="experience-item">
+
+                    <div class="experience-index">01</div>
+
+                    <div>
+                        <h3>C# Development</h3>
+
+                        <p>
+                            Professional experience developing and maintaining
+                            Windows applications using C# and .NET.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="experience-item">
+
+                    <div class="experience-index">02</div>
+
+                    <div>
+                        <h3>Application Development</h3>
+
+                        <p>
+                            Working with existing applications, implementing
+                            changes, debugging issues and improving software
+                            functionality.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="experience-item">
+
+                    <div class="experience-index">03</div>
+
+                    <div>
+                        <h3>Modern .NET Development</h3>
+
+                        <p>
+                            Currently expanding my professional skillset into
+                            ASP.NET Core, web applications, APIs and modern
+                            backend development.
+                        </p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+   <!-- =========================================================
+     PROJECTS
+     ========================================================= -->
+
+<section id="projects" class="projects-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div class="section-label">
+                <span>05</span>
+                Projects
+            </div>
+
+            <h2>
+                Selected work &
+                <em>things I'm building.</em>
+            </h2>
+
+        </div>
+
+
+        <div class="projects-list">
+
+
+            <!-- =================================================
+                 PROJECT 01
+                 ================================================= -->
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    01
+                </div>
+
+
+                <div class="project-content">
+
+                    <span class="project-type">
+                        ASP.NET Core · Portfolio
+                    </span>
+
+                    <h3>
+                        Developer Portfolio
+                    </h3>
+
+                    <p>
+                        A personal developer portfolio built with
+                        ASP.NET Core and Razor Pages. The project
+                        focuses on clean architecture, responsive
+                        design and presenting my professional
+                        experience and technical journey.
+                    </p>
+
+
+                    <div class="project-stack">
+
+                        <span>C#</span>
+                        <span>ASP.NET Core</span>
+                        <span>Razor Pages</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+
+                    <!-- PROJECT LINKS -->
+
+                    <div class="project-links">
+
+                        <a
+                            href="https://github.com/YOUR-USERNAME/YOUR-REPOSITORY"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link">
+
+                            <span>GitHub</span>
+
+                            <span class="project-link-icon">
+                                ↗
+                            </span>
+
+                        </a>
+
+
+                        <a
+                            href="/"
+                            class="project-link project-link-primary">
+
+                            <span>Live Demo</span>
+
+                            <span class="project-link-icon">
+                                ↗
+                            </span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="project-action">
+
+                    <span>
+                        Featured
+                    </span>
+
+                    <b>
+                        ↗
+                    </b>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 PROJECT 02
+                 ================================================= -->
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    02
+                </div>
+
+
+                <div class="project-content">
+
+                    <span class="project-type">
+                        ASP.NET Core · Web API
+                    </span>
+
+                    <h3>
+                        Task Management API
+                    </h3>
+
+                    <p>
+                        A REST API designed to demonstrate modern
+                        backend development with ASP.NET Core,
+                        CRUD operations, validation, Entity
+                        Framework Core and database integration.
+                    </p>
+
+
+                    <div class="project-stack">
+
+                        <span>C#</span>
+                        <span>ASP.NET Core</span>
+                        <span>Web API</span>
+                        <span>EF Core</span>
+                        <span>SQL</span>
+                        <span>REST</span>
+
+                    </div>
+
+
+                    <div class="project-links">
+
+                        <a
+                            href="https://github.com/YOUR-USERNAME/task-management-api"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link">
+
+                            <span>GitHub</span>
+
+                            <span class="project-link-icon">
+                                ↗
+                            </span>
+
+                        </a>
+
+
+                        <a
+                            href="#"
+                            class="project-link project-link-disabled"
+                            aria-disabled="true">
+
+                            <span>Live Demo</span>
+
+                            <span class="project-link-icon">
+                                — 
+                            </span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="project-action">
+
+                    <span>
+                        In progress
+                    </span>
+
+                    <b>
+                        ↗
+                    </b>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 PROJECT 03
+                 ================================================= -->
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    03
+                </div>
+
+
+                <div class="project-content">
+
+                    <span class="project-type">
+                        .NET · Full Stack
+                    </span>
+
+                    <h3>
+                        Management Application
+                    </h3>
+
+                    <p>
+                        A larger .NET application demonstrating
+                        authentication, CRUD functionality,
+                        database relationships and a complete
+                        user workflow from frontend to backend.
+                    </p>
+
+
+                    <div class="project-stack">
+
+                        <span>C#</span>
+                        <span>.NET</span>
+                        <span>ASP.NET Core</span>
+                        <span>SQL</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+
+                    <div class="project-links">
+
+                        <a
+                            href="https://github.com/YOUR-USERNAME/management-application"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link">
+
+                            <span>GitHub</span>
+
+                            <span class="project-link-icon">
+                                ↗
+                            </span>
+
+                        </a>
+
+
+                        <a
+                            href="#"
+                            class="project-link project-link-disabled"
+                            aria-disabled="true">
+
+                            <span>Live Demo</span>
+
+                            <span class="project-link-icon">
+                                —
+                            </span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="project-action">
+
+                    <span>
+                        Coming soon
+                    </span>
+
+                    <b>
+                        ↗
+                    </b>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- =========================================================
+         LEARNING
+         ========================================================= -->
+
+    <section class="learning-section">
+
+        <div class="container learning-container">
+
+            <div class="learning-content">
+
+                <div class="section-label">
+                    <span>06</span>
+                    Currently learning
+                </div>
+
+                <h2>
+                    Always
+                    <em>building.</em>
+                </h2>
+
+                <p>
+                    I'm continuously expanding my knowledge through practical
+                    projects and focused learning, with the goal of becoming
+                    a stronger modern .NET software engineer.
+                </p>
+
+            </div>
+
+
+            <div class="learning-list">
+
+                <div>
+                    <span>01</span>
+                    <strong>ASP.NET Core Web API</strong>
+                </div>
+
+                <div>
+                    <span>02</span>
+                    <strong>Entity Framework Core</strong>
+                </div>
+
+                <div>
+                    <span>03</span>
+                    <strong>SQL & Database Design</strong>
+                </div>
+
+                <div>
+                    <span>04</span>
+                    <strong>REST API Architecture</strong>
+                </div>
+
+                <div>
+                    <span>05</span>
+                    <strong>Testing & Clean Code</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+   <!-- =========================================================
+     CONTACT
+     ========================================================= -->
+
+<section id="contact" class="contact-section">
+
+    <div class="container contact-container">
+
+        <div class="contact-content">
+
+            <div class="section-label light-label">
+                <span>07</span>
+                Contact
+            </div>
+
+            <h2>
+                Let's build something
+                <em>meaningful.</em>
+            </h2>
+
+            <p class="contact-intro">
+                I'm open to discussing software development,
+                C# and .NET opportunities, interesting projects
+                and professional collaborations.
+            </p>
+
+            <div class="contact-links">
+
+                <!-- EMAIL -->
+                <a href="mailto:mihaelaandreeac@gmail.com"
+                   class="contact-link">
+                    <span>
+                        <small>Email</small>
+                        mihaelaandreeac@gmail.com
+                    </span>
+
+                    <b>↗</b>
+                </a>
+
+
+                <!-- LINKEDIN -->
+                <a href="https://www.linkedin.com/in/mihaela-andreea-c%C4%83lin-80ab331b7/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-link">
+
+                    <span>
+                        <small>LinkedIn</small>
+                        Connect with me
+                    </span>
+
+                    <b>↗</b>
+                </a>
+
+
+                <!-- GITHUB -->
+                <a href="https://github.com/MiikyPMA"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-link">
+
+                    <span>
+                        <small>GitHub</small>
+                        View my projects
+                    </span>
+
+                    <b>↗</b>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="contact-side">
+
+            <div class="contact-availability">
+                <span class="availability-dot"></span>
+
+                <div>
+                    <strong>Available for opportunities</strong>
+                    <small>Worldwide · Remote</small>
+                </div>
+            </div>
+
+
+            <div class="contact-email-large">
+                <span>Prefer email?</span>
+
+                <a href="mailto:mihaelaandreeac@gmail.com">
+                    mihaelaandreeac@gmail.com
+                </a>
+            </div>
+
+        </div>
+
+
+        <div class="contact-decoration">
+            M
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+
+<footer class="site-footer">
+
+    <div class="container footer-inner">
+
+        <div class="footer-brand">
+            <span class="footer-mark">M</span>
+
+            <div>
+                <strong>Mihaela Andreea Calin</strong>
+                <small>C# · .NET Developer</small>
+            </div>
+        </div>
+
+        <div class="footer-center">
+            Designed & built with C# · .NET
+        </div>
+
+        <div class="footer-right">
+            © @DateTime.Now.Year
+        </div>
+
+    </div>
+
+</footer>

@@ -1087,7 +1087,69 @@ h3 {
     line-height: 1.55;
 }
 
+/* =========================================================
+   ABOUT HIGHLIGHTS
+   ========================================================= */
 
+.about-highlights {
+    margin-top: 55px;
+
+    border-top:
+        1px solid var(--line);
+}
+
+.about-highlight {
+    display: grid;
+
+    grid-template-columns:
+        45px
+        minmax(0, 1fr);
+
+    gap: 20px;
+
+    padding:
+        25px
+        0;
+
+    border-bottom:
+        1px solid var(--line);
+}
+
+.about-highlight > span {
+    color: var(--beige-dark);
+
+    font-family:
+        "Courier New",
+        monospace;
+
+    font-size: 8px;
+}
+
+.about-highlight strong {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: var(--brown);
+
+    font-family: var(--serif);
+
+    font-size: 18px;
+
+    font-weight: 400;
+}
+
+.about-highlight p {
+    max-width: 500px;
+
+    margin: 0;
+
+    color: var(--muted);
+
+    font-size: 10px;
+
+    line-height: 1.8;
+}
 /* =========================================================
    SKILLS
    ========================================================= */
@@ -2362,7 +2424,17 @@ h3 {
             calc(100% - 36px);
     }
 
+ .about-highlights {
+        margin-top: 40px;
+    }
 
+    .about-highlight {
+        grid-template-columns:
+            35px
+            minmax(0, 1fr);
+
+        gap: 15px;
+    }
     /* NAV */
 
     .site-navbar {
